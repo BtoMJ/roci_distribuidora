@@ -25,6 +25,14 @@
     color: var(--border);
   }
 
+  .items-cart {
+    color: var(--border);
+  }
+
+  .no-items-cart {
+    color: var(--disable);
+  }
+
   .menu-nav-mobile {
     width: 15%;
     display: flex;
