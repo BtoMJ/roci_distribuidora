@@ -1,0 +1,27 @@
+[
+  {
+    "id": "li-1",
+    "name": "Gel Linner Blanco",
+    "price": 69
+  },
+  {
+    "id": "li-2",
+    "name": "Gel Linner Negro",
+    "price": 69
+  },
+  {
+    "id": "li-3",
+    "name": "Gel Linner Plata",
+    "price": 69
+  },
+  {
+    "id": "li-4",
+    "name": "Gel Linner Rojo Platinum",
+    "price": 69
+  },
+  {
+    "id": "li-5",
+    "name": "Gel Linner Top Coat",
+    "price": 69
+  }
+]

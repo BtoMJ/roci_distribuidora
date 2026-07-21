@@ -1,11 +1,26 @@
 .catalog-container {
   width: 100dvw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
-  h1 {
+  .cat-container {
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px 10px 10px 10px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+
+    .link-menu {
+      text-decoration: none;
+      color: var(--text-h);
+    }
+  }
+
+  h2 {
     width: 95%;
     font-size: 2rem;
     line-height: 100%;

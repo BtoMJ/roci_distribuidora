@@ -1,0 +1,47 @@
+[
+  {
+    "id": "lu-1",
+    "name": "Gel Lumistik Azul",
+    "price": 80
+  },
+  {
+    "id": "lu-2",
+    "name": "Gel Lumistik Café",
+    "price": 80
+  },
+  {
+    "id": "lu-3",
+    "name": "Gel Lumistik Dorado",
+    "price": 80
+  },
+  {
+    "id": "lu-4",
+    "name": "Gel Lumistik Fucsia",
+    "price": 80
+  },
+  {
+    "id": "lu-5",
+    "name": "Gel Lumistik Morado",
+    "price": 80
+  },
+  {
+    "id": "lu-6",
+    "name": "Gel Lumistik Negro",
+    "price": 80
+  },
+  {
+    "id": "lu-7",
+    "name": "Gel Lumistik Plata",
+    "price": 80
+  },
+  {
+    "id": "lu-8",
+    "name": "Gel Lumistik Rose Gold",
+    "price": 80
+  },
+  {
+    "id": "lu-9",
+    "name": "Gel Lumistik Verde",
+    "price": 80
+  }
+]

@@ -11,6 +11,7 @@ function Nav() {
   const screenWidth = window.innerWidth;
   const items = useCartStore((state) => state.items);
   console.log("ITEMS", items);
+
   return (
     <nav className="nav-container">
       {screenWidth < 768 && (

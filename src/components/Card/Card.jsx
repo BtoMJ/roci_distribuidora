@@ -1,42 +1,29 @@
-import img1 from "../../assets/polish/cafe.png";
-import img2 from "../../assets/polish/roseGold.png";
-import img3 from "../../assets/polish/capri.png";
-import img4 from "../../assets/polish/amarillo.png";
-import img5 from "../../assets/polish/holograficverde.png";
-import img6 from "../../assets/polish/ursula.png";
-import img7 from "../../assets/polish/gold.png";
-import img8 from "../../assets/polish/bublegum.png";
-import img9 from "../../assets/polish/koala.png";
-import img10 from "../../assets/polish/celeste.png";
+// import img1 from "../../assets/polish/cafe.png";
+// import img2 from "../../assets/polish/roseGold.png";
+// import img3 from "../../assets/polish/capri.png";
+// import img4 from "../../assets/polish/amarillo.png";
+// import img5 from "../../assets/polish/holograficverde.png";
+// import img6 from "../../assets/polish/ursula.png";
+// import img7 from "../../assets/polish/gold.png";
+// import img8 from "../../assets/polish/bublegum.png";
+// import img9 from "../../assets/polish/koala.png";
+// import img10 from "../../assets/polish/celeste.png";
 import { useState } from "react";
 import { FaCartShopping } from "react-icons/fa6";
 import { useCartStore } from "../../store/cartStore";
 import "./Card.css";
 
-const Card = ({ product }) => {
+const Card = ({ product, photo, count }) => {
   const addItem = useCartStore((state) => state.addItem);
   const Item = useCartStore((state) => state.items);
-  console.log(Item);
+  console.log("ITEMS", Item);
 
   const [quantity, setQuantity] = useState(1);
 
-  const images = [
-    "0",
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img9,
-    img10,
-  ];
   return (
     <div className="product-card">
       <div className="card-image-container">
-        <img src={images[product.id]} alt={"Polish"} className="card-image" />
+        <img src={photo[count + 1]} alt={"Cover"} className="card-image" />
       </div>
 
       <div className="card-content">
