@@ -1,0 +1,6 @@
+.balatro-container {
+  width: 100dvw;
+  height: 100dvh;
+  position: absolute;
+  opacity: 0.2;
+}

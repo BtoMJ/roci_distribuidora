@@ -4,7 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--light);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  background: linear-gradient(180deg, #ffffff 30%, #ffffff00 100%);
 
   .nav-logo-mobile {
     width: 70%;
@@ -46,4 +50,8 @@
       transition: all0.3s ease;
     }
   }
+}
+
+.menu-modal {
+  background-color: var(--light-modal);
 }

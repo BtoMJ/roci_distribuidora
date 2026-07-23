@@ -1,9 +1,10 @@
 .category-container {
   width: 100dvw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  /* justify-content: center; */
 
   h1 {
     width: 95%;
@@ -12,6 +13,6 @@
     text-align: center;
     color: var(--text-h);
     margin-top: 1rem;
-    font-family: "Englebert", cursive;
+    font-family: "Poppins", sans-serif;
   }
 }

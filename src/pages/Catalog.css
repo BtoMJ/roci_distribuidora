@@ -3,20 +3,25 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 
-  .cat-container {
-    width: 100px;
-    height: 70px;
-    border-radius: 10px;
-    margin: 20px 10px 10px 10px;
-    background-color: #fff;
-    box-shadow: var(--shadow);
+  .link-menu {
+    text-decoration: none;
+    color: var(--text-h);
 
-    .link-menu {
-      text-decoration: none;
-      color: var(--text-h);
+    .cat-container {
+      width: 115px;
+      height: 110px;
+      border-radius: 3px;
+      margin: 10px 5px;
+      background: linear-gradient(180deg, #fdf3f3 50%, #ecc3c3 150%);
+      background-color: #fff;
+      box-shadow: var(--shadow);
+
+      img {
+        height: 45%;
+        margin-bottom: 0.5rem;
+      }
     }
   }
 
@@ -26,7 +31,7 @@
     line-height: 100%;
     text-align: center;
     color: var(--text-h);
-    margin-top: 1rem;
-    font-family: "Englebert", cursive;
+    margin: 1rem;
+    font-family: "Poppins", sans-serif;
   }
 }
