@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 
   .link-menu {
@@ -10,16 +11,17 @@
     color: var(--text-h);
 
     .cat-container {
-      width: 115px;
+      width: 100px;
       height: 110px;
+      font-size: 0.9rem;
       border-radius: 3px;
       margin: 10px 5px;
-      background: linear-gradient(180deg, #fdf3f3 50%, #ecc3c3 150%);
       background-color: #fff;
       box-shadow: var(--shadow);
+      background: linear-gradient(180deg, #fdf3f3 50%, #ecc3c3 150%);
 
       img {
-        height: 45%;
+        height: 40%;
         margin-bottom: 0.5rem;
       }
     }

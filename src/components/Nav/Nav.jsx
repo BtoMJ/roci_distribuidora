@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams, useLocation } from "react-router-dom";
 import { useCartStore } from "../../store/cartStore.js";
 import { FaXmark, FaBars, FaCartShopping } from "react-icons/fa6";
 import CartIcon from "../CardIcon/CardIcon";
@@ -7,14 +7,19 @@ import logo from "../../assets/LogoRoci.png";
 import "./Nav.css";
 
 function Nav() {
+  const { url } = useParams();
+  const { pathname } = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const screenWidth = window.innerWidth;
   const items = useCartStore((state) => state.items);
   console.log("ITEMS", items);
 
+  console.log(url);
+  console.log(pathname);
+
   return (
     <>
-      <nav className="nav-container">
+      <nav className={pathname !== "/" ? "nav-container" : "no-visible"}>
         {screenWidth < 768 ? (
           <>
             <div className="nav-logo-mobile">
