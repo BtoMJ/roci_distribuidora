@@ -4,6 +4,9 @@ import cover from "../assets/icons/cover.png";
 import linner from "../assets/icons/linner.png";
 import lumistik from "../assets/icons/lumistik.png";
 import cateye from "../assets/icons/cateye.png";
+import poly from "../assets/icons/poly.png";
+import electronicos from "../assets/icons/electronicos.png";
+import esmalte1 from "../assets/icons/esmalte1.png";
 import "./Catalog.css";
 
 function Catalog() {
@@ -38,6 +41,24 @@ function Catalog() {
         <div className="cat-container centered">
           <img src={collections} alt="ícono colecciones" />
           <h3>Colecciones</h3>
+        </div>
+      </Link>
+      <Link className="link-menu" to="/catalog/polygel">
+        <div className="cat-container centered">
+          <img src={poly} alt="ícono polygel" />
+          <h3>Polygel</h3>
+        </div>
+      </Link>
+      <Link className="link-menu" to="/catalog/remolino">
+        <div className="cat-container centered">
+          <img src={esmalte1} alt="ícono remolino" />
+          <h3>Remolino</h3>
+        </div>
+      </Link>
+      <Link className="link-menu" to="/catalog/electronic">
+        <div className="cat-container centered">
+          <img src={electronicos} alt="ícono electronicos" />
+          <h3>Electrónico</h3>
         </div>
       </Link>
     </div>

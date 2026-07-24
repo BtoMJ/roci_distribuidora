@@ -15,7 +15,6 @@ import img13 from "../../assets/cat eye/opal/negro.png";
 import img14 from "../../assets/cat eye/opal/olivo.png";
 import img15 from "../../assets/cat eye/opal/sand.png";
 import catEye from "../../data/cat-eye.json";
-import "./CatEye.css";
 import Back from "../Back/Back";
 
 function CatEye() {
@@ -38,7 +37,7 @@ function CatEye() {
     img15,
   ];
   return (
-    <div className="cat-eye-container">
+    <div className="category-container">
       <h1>Cat Eye</h1>
       <div className="products">
         {catEye.map((item, i) => (

@@ -14,7 +14,7 @@ function Home() {
         color2="#db9797"
         color3="#b66767"
       />
-      <img src={heroImg} className="hero-img" alt="nails" />
+      <img src={heroImg} className="hero-img" alt="logo" />
       <h1>Productos para la aplicación de uñas acrílicas.</h1>
       <NavLink to="/catalog" className="btn-primary">
         Ver Catálogo

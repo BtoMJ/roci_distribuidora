@@ -1,0 +1,37 @@
+[
+  {
+    "id": "col-1",
+    "name": "Gama 3 Acrílicos A.B.",
+    "price": 69
+  },
+  {
+    "id": "col-2",
+    "name": "Gama 3 Acrílicos Amatis",
+    "price": 69
+  },
+  {
+    "id": "col-3",
+    "name": "Gama 3 Acrílicos Bronze",
+    "price": 69
+  },
+  {
+    "name": "Gama 3 Acrílicos Golden",
+    "id": "col-4",
+    "price": 69
+  },
+  {
+    "name": "Gama 3 Acrílicos Grich",
+    "id": "col-5",
+    "price": 69
+  },
+  {
+    "name": "Gama 3 Acrílicos Santa",
+    "id": "col-6",
+    "price": 69
+  },
+  {
+    "id": "col-7",
+    "name": "Gama 3 Acrílicos Smoke",
+    "price": 69
+  }
+]

@@ -58,24 +58,36 @@ body {
   justify-content: center;
 }
 
-.products {
+.category-container {
   width: 100dvw;
-  height: 100dvh;
-  overflow-y: scroll;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  margin-top: 1rem;
-  scrollbar-width: none;
+
+  h1 {
+    width: 95%;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--text-h);
+    margin: 0.5rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .products {
+    width: 100dvw;
+    height: 78dvh;
+    overflow-y: scroll;
+    position: relative;
+    margin-top: 1rem;
+    scrollbar-width: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+    padding: 0 10px;
+  }
 }
 
 products::-webkit-scrollbar {
   display: none;
-}
-
-canvas {
-  background: transparent;
 }

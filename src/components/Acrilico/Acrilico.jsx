@@ -39,7 +39,6 @@ import img36 from "../../assets/cover/cover 4 oz almond.webp";
 import img37 from "../../assets/cover/cover 4 oz cristal.webp";
 import img38 from "../../assets/cover/cover 4 oz petal rose.png";
 import acrilico from "../../data/acrílico_cover.json";
-import "./Acrilico.css";
 
 function Acrilico() {
   const images = [

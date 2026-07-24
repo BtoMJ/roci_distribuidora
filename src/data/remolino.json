@@ -1,0 +1,17 @@
+[
+  {
+    "id": "rem-1",
+    "name": "Gel Remolino Azul",
+    "price": 69
+  },
+  {
+    "id": "rem-2",
+    "name": "Gel Remolino Dorado",
+    "price": 69
+  },
+  {
+    "id": "rem-3",
+    "name": "Gel Remolino Rosa",
+    "price": 69
+  }
+]

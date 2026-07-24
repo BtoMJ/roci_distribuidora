@@ -40,6 +40,7 @@
       text-align: center;
       line-height: 110%;
       margin-bottom: 0.5rem;
+      font-family: "Poppins", sans-serif;
     }
 
     .card-price {
@@ -88,13 +89,13 @@
         background-color: var(--border);
         color: var(--light);
         border: none;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-
+        font-family: "Poppins", sans-serif;
         &:visited {
           background-color: var(--accent);
           color: var(--light);

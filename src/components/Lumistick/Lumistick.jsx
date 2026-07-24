@@ -10,12 +10,11 @@ import img7 from "../../assets/lumistick/plata.webp";
 import img8 from "../../assets/lumistick/rose gold.webp";
 import img9 from "../../assets/lumistick/verde.png";
 import lumistik from "../../data/lumistik.json";
-import "./Lumistick.css";
 
 function Lumistick() {
   const images = ["0", img1, img2, img3, img4, img5, img6, img7, img8, img9];
   return (
-    <div className="lumistik-container">
+    <div className="category-container">
       <h1>Lumistik</h1>
       <div className="products">
         {lumistik.map((item, i) => (
