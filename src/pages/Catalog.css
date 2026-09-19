@@ -1,24 +1,107 @@
 .catalog-container {
-  width: 100dvw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 
+  @media (320px <= width <= 479px) {
+    width: 100svw;
+  }
+
+  @media (768px <= width <= 1023px) {
+    width: 80lvw;
+  }
+
+  @media (1024px <= width <= 1279px) {
+    width: 80lvw;
+  }
+
+  @media (1280px <= width <= 1439px) {
+    width: 60dvw;
+  }
+
+  @media (1440px <= width <= 1919px) {
+    width: 60dvw;
+  }
+
+  @media (1920px <= width <= 2600px) {
+    width: 60dvw;
+  }
+
+  @media (2601px <= width) {
+    width: 30dvw;
+  }
+
+  .catalog-list {
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+
   .link-menu {
     text-decoration: none;
     color: var(--text-h);
 
     .cat-container {
-      width: 100px;
-      height: 110px;
-      font-size: 0.9rem;
       border-radius: 3px;
-      margin: 10px 5px;
       background-color: #fff;
       box-shadow: var(--shadow);
       background: linear-gradient(180deg, #fdf3f3 50%, #ecc3c3 150%);
+
+      @media (320px <= width <= 479px) {
+        width: 100px;
+        height: 110px;
+        font-size: 0.9rem;
+        margin: 10px 5px;
+      }
+
+      @media (768px <= width <= 1023px) {
+        width: 120px;
+        height: 120px;
+        font-size: 0.9rem;
+        margin: 10px;
+      }
+
+      @media (1024px <= width <= 1279px) {
+        width: 120px;
+        height: 120px;
+        font-size: 0.9rem;
+        margin: 10px;
+      }
+
+      @media (1280px <= width <= 1439px) {
+        width: 120px;
+        height: 120px;
+        font-size: 0.8rem;
+        margin: 10px;
+      }
+
+      @media (1440px <= width <= 1919px) {
+        width: 120px;
+        height: 120px;
+        font-size: 0.8rem;
+        margin: 10px;
+      }
+
+      @media (1920px <= width) {
+        width: 130px;
+        height: 130px;
+        font-size: 1rem;
+        margin: 15px;
+      }
+
+      @media (2601px <= width) {
+        width: 130px;
+        height: 130px;
+        font-size: 1rem;
+        margin: 15px;
+      }
 
       img {
         height: 40%;
@@ -30,10 +113,10 @@
   h2 {
     width: 95%;
     font-size: 2rem;
+    margin: 1rem;
     line-height: 100%;
     text-align: center;
     color: var(--text-h);
-    margin: 1rem;
     font-family: "Poppins", sans-serif;
   }
 }

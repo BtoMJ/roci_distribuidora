@@ -1,0 +1,127 @@
+[
+  {
+    "id": "esm-1",
+    "name": "Amarillo Narciso",
+    "price": 69
+  },
+  {
+    "id": "esm-2",
+    "name": "Amarillo Neón",
+    "price": 69
+  },
+  {
+    "id": "esm-3",
+    "name": "Amarillo Piña",
+    "price": 69
+  },
+  {
+    "id": "esm-4",
+    "name": "Bile",
+    "price": 69
+  },
+  {
+    "id": "esm-5",
+    "name": "Blanco Gris",
+    "price": 69
+  },
+  {
+    "id": "esm-6",
+    "name": "Blanco Hueso",
+    "price": 69
+  },
+  {
+    "id": "esm-7",
+    "name": "Blanco Ostión",
+    "price": 69
+  },
+  {
+    "id": "esm-8",
+    "name": "Caramelo",
+    "price": 69
+  },
+  {
+    "id": "esm-9",
+    "name": "Fuego",
+    "price": 69
+  },
+  {
+    "id": "esm-10",
+    "name": "Gel Girasol",
+    "price": 69
+  },
+  {
+    "id": "esm-11",
+    "name": "Gel Perla",
+    "price": 69
+  },
+  {
+    "id": "esm-12",
+    "name": "Hot Pink",
+    "price": 69
+  },
+  {
+    "id": "esm-13",
+    "name": "Ladrillo",
+    "price": 69
+  },
+  {
+    "id": "esm-14",
+    "name": "Mostaza",
+    "price": 69
+  },
+  {
+    "id": "esm-15",
+    "name": "Naranja Coral",
+    "price": 69
+  },
+  {
+    "id": "esm-16",
+    "name": "Naranja",
+    "price": 69
+  },
+  {
+    "id": "esm-17",
+    "name": "Rosa Barbie",
+    "price": 69
+  },
+  {
+    "id": "esm-18",
+    "name": "Rosa Coral",
+    "price": 69
+  },
+  {
+    "id": "esm-19",
+    "name": "Rosa Fantasy",
+    "price": 69
+  },
+  {
+    "id": "esm-20",
+    "name": "Rosa Neón",
+    "price": 69
+  },
+  {
+    "id": "esm-21",
+    "name": "Rosa Viejo",
+    "price": 69
+  },
+  {
+    "id": "esm-22",
+    "name": "Rose",
+    "price": 69
+  },
+  {
+    "id": "esm-23",
+    "name": "Rouge",
+    "price": 69
+  },
+  {
+    "id": "esm-24",
+    "name": "Super Blanco",
+    "price": 69
+  },
+  {
+    "id": "esm-25",
+    "name": "Zinnia",
+    "price": 69
+  }
+]

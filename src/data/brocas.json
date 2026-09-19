@@ -1,0 +1,22 @@
+[
+  {
+    "id": "br-1",
+    "name": "Broca 5 en 1 Mini",
+    "price": 100
+  },
+  {
+    "id": "br-2",
+    "name": "Broca Buffer Bit",
+    "price": 100
+  },
+  {
+    "id": "br-3",
+    "name": "Broca Flama",
+    "price": 100
+  },
+  {
+    "id": "br-4",
+    "name": "Rusian Dry",
+    "price": 100
+  }
+]

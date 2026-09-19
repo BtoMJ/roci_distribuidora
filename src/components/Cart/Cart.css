@@ -2,29 +2,106 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
+  @media (320px <= width <= 479px) {
+  }
+
+  @media (768px <= width <= 1023px) and (min-height: 1025px) {
+  }
+
+  @media (1024px <= width <= 1279px) {
+  }
+
+  @media (1280px <= width <= 1439px) {
+  }
+
+  @media (1440px <= width <= 1919px) {
+  }
+
+  @media (1920px <= width <= 2600px) {
+    width: 40dvw;
+  }
+
+  @media (2601px <= width) {
+  }
 
   h2 {
     font-size: 2rem;
     margin-top: 2rem;
     color: var(--text-h);
-    font-family: "Englebert", cursive;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1.5rem;
   }
 
   .cart-list {
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 1rem;
+
+    @media (320px <= width <= 479px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media (768px <= width <= 1023px) {
+      width: 75dvw;
+      display: grid;
+      place-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (1024px <= width <= 1279px) {
+    }
+
+    @media (1280px <= width <= 1439px) {
+    }
+
+    @media (1440px <= width <= 1919px) {
+    }
+
+    @media (1920px <= width <= 2600px) {
+      width: 40%;
+    }
+
+    @media (2601px <= width) {
+    }
 
     .cart-item {
-      width: 90dvw;
-      height: 100% !important;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      padding: 0.5rem;
-      margin: 1.5rem 0;
       border-radius: 7px;
       box-shadow: var(--shadow);
       background-color: var(--light);
+
+      @media (320px <= width <= 479px) {
+        width: 90dvw;
+        padding: 0.5rem;
+        margin: 1.5rem 0;
+      }
+
+      @media (768px <= width <= 1023px) {
+        width: 250px;
+        margin: 1.5rem 0;
+      }
+
+      @media (1024px <= width <= 1279px) {
+      }
+
+      @media (1280px <= width <= 1439px) {
+      }
+
+      @media (1440px <= width <= 1919px) {
+      }
+
+      @media (1920px <= width <= 2600px) {
+        width: 23dvw;
+        padding: 0.5rem;
+        margin: 1rem 0;
+      }
+
+      @media (2601px <= width) {
+      }
 
       .item-info {
         width: 60%;
@@ -101,14 +178,67 @@
   }
 
   .cart-summary {
-    width: 90dvw;
+    width: 93%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
-    h3 {
+    @media (320px <= width <= 479px) {
+      width: 90dvw;
+    }
+
+    @media (768px <= width <= 1023px) and (min-height: 1025px) {
+    }
+
+    @media (1024px <= width <= 1279px) {
+    }
+
+    @media (1280px <= width <= 1439px) {
+    }
+
+    @media (1440px <= width <= 1919px) {
+    }
+
+    @media (1920px <= width <= 2600px) {
+      width: 23dvw;
+    }
+
+    @media (2601px <= width) {
+    }
+
+    .btns-cart {
       width: 100%;
+      position: relative;
+      display: flex;
+
+      @media (320px <= width <= 479px) {
+        flex-direction: column;
+        width: 90dvw;
+      }
+
+      @media (768px <= width <= 1023px) {
+        flex-direction: row;
+      }
+
+      @media (1024px <= width <= 1279px) {
+      }
+
+      @media (1280px <= width <= 1439px) {
+      }
+
+      @media (1440px <= width <= 1919px) {
+      }
+
+      @media (1920px <= width <= 2600px) {
+        width: 23dvw;
+      }
+
+      @media (2601px <= width) {
+      }
+    }
+
+    h3 {
       text-align: center;
       padding: 10px 0;
       border-radius: 7px;
@@ -116,6 +246,30 @@
       font-size: 1.2rem;
       color: var(--light);
       margin: 1rem 0 3rem 0;
+
+      @media (320px <= width <= 479px) {
+        width: 100%;
+      }
+
+      @media (768px <= width <= 1023px) {
+        width: 50%;
+      }
+
+      @media (1024px <= width <= 1279px) {
+      }
+
+      @media (1280px <= width <= 1439px) {
+      }
+
+      @media (1440px <= width <= 1919px) {
+      }
+
+      @media (1920px <= width <= 2600px) {
+        width: 23dvw;
+      }
+
+      @media (2601px <= width) {
+      }
     }
 
     .btn-secondary {

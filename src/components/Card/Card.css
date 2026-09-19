@@ -1,13 +1,58 @@
 .product-card {
-  width: 160px;
-  height: 220px;
-  padding: 0.5rem;
-  margin: 0.75rem 0.5rem;
   border-radius: 7px;
   box-shadow: var(--shadow);
   background-color: var(--light);
   display: flex;
   flex-direction: column;
+
+  @media (320px <= width <= 479px) {
+    width: 160px;
+    height: 220px;
+    padding: 0.5rem;
+    margin: 0.75rem 0.5rem;
+  }
+
+  @media (768px <= width <= 1023px) {
+    width: 160px;
+    height: 220px;
+    padding: 0.5rem;
+    margin: 0.75rem 0.5rem;
+  }
+
+  @media (1024px <= width <= 1279px) {
+    width: 180px;
+    height: 220px;
+    padding: 0.5rem;
+    margin: 0.75rem 0.5rem;
+  }
+
+  @media (1280px <= width <= 1439px) {
+    width: 180px;
+    height: 220px;
+    padding: 0.5rem;
+    margin: 0.75rem 0.5rem;
+  }
+
+  @media (1440px <= width <= 1919px) {
+    width: 180px;
+    height: 220px;
+    padding: 0.5rem;
+    margin: 0.75rem 0.5rem;
+  }
+
+  @media (1920px <= width <= 2600px) {
+    width: 180px;
+    height: 220px;
+    padding: 0.5rem;
+    margin: 0.75rem 0.5rem;
+  }
+
+  @media (2601px <= width) {
+    width: 180px;
+    height: 220px;
+    padding: 0.5rem;
+    margin: 0.75rem 0.5rem;
+  }
 
   .card-image-container {
     height: 100px;

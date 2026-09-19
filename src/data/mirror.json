@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mi-1",
+    "name": "Mirror Aurora Arcoiris",
+    "price": 50
+  },
+  {
+    "id": "mi-2",
+    "name": "Mirror Blue",
+    "price": 50
+  },
+  {
+    "id": "mi-3",
+    "name": "Mirror Green",
+    "price": 50
+  },
+  {
+    "id": "mi-4",
+    "name": "Mirror Café",
+    "price": 50
+  },
+  {
+    "id": "mi-5",
+    "name": "Mirror Champagne",
+    "price": 50
+  },
+  {
+    "id": "mi-6",
+    "name": "Mirror Copper",
+    "price": 50
+  },
+  {
+    "id": "mi-7",
+    "name": "Mirror Magic Rose",
+    "price": 50
+  },
+  {
+    "id": "mi-8",
+    "name": "Mirror Olivo",
+    "price": 50
+  },
+  {
+    "id": "mi-9",
+    "name": "Mirror Purple",
+    "price": 50
+  },
+  {
+    "id": "mi-10",
+    "name": "Mirror Red",
+    "price": 50
+  },
+  {
+    "id": "mi-11",
+    "name": "Mirror Rose Gold",
+    "price": 50
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "pnc-1",
+    "name": "Pincel 3D",
+    "price": 150
+  },
+  {
+    "id": "pnc-2",
+    "name": "Pincel #8",
+    "price": 249
+  },
+  {
+    "id": "pnc-3",
+    "name": "Pincel #10",
+    "price": 299
+  }
+]

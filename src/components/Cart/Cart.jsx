@@ -90,14 +90,16 @@ function Cart() {
       <div className="cart-summary">
         <h3>Total: ${total}</h3>
 
-        <NavLink to="/catalog" className="btn-secondary">
-          Seguir Comprando
-        </NavLink>
+        <div className="btns-cart">
+          <NavLink to="/catalog" className="btn-secondary">
+            Seguir Comprando
+          </NavLink>
 
-        <button className="btn-whatsapp" onClick={sendToWhatsapp}>
-          <FaWhatsapp className="whatsapp-icon" />
-          Enviar Pedido
-        </button>
+          <button className="btn-whatsapp" onClick={sendToWhatsapp}>
+            <FaWhatsapp className="whatsapp-icon" />
+            Enviar Pedido
+          </button>
+        </div>
       </div>
     </section>
   );

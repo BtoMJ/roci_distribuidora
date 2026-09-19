@@ -1,17 +1,72 @@
 .items {
   width: 20px;
   height: 20px;
+  top: -10px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
   font-weight: bold;
   background-color: var(--text);
   color: var(--bg);
   position: relative;
-  top: -10px;
-  left: 34px;
+
+  @media (320px <= width <= 479px) {
+    left: 34px;
+  }
+
+  @media (768px <= width <= 1023px) {
+    left: 40px;
+  }
+
+  @media (1024px <= width <= 1279px) {
+    left: 45px;
+  }
+
+  @media (1280px <= width <= 1439px) {
+    left: 35px;
+  }
+
+  @media (1440px <= width <= 1919px) {
+    left: 40px;
+  }
+
+  @media (1920px <= width) {
+    left: 35px;
+  }
+
+  .cart-badge {
+    position: relative;
+
+    @media (320px <= width <= 479px) {
+      font-size: 0.7rem;
+    }
+
+    @media (768px <= width <= 1023px) {
+      font-size: 0.8rem;
+      top: -2px;
+    }
+
+    @media (1024px <= width <= 1279px) {
+      font-size: 0.8rem;
+      top: -2px;
+    }
+
+    @media (1280px <= width <= 1439px) {
+      font-size: 0.8rem;
+      top: -1px;
+    }
+
+    @media (1440px <= width <= 1919px) {
+      font-size: 0.8rem;
+      top: -1px;
+    }
+
+    @media (1920px <= width) {
+      font-size: 0.8rem;
+      top: -1px;
+    }
+  }
 }
 
 .no-items {

@@ -1,104 +1,33 @@
-import { useState } from "react";
-import { NavLink, useParams, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useCartStore } from "../../store/cartStore.js";
-import { FaXmark, FaBars, FaCartShopping } from "react-icons/fa6";
+import { FaCartShopping } from "react-icons/fa6";
 import CartIcon from "../CardIcon/CardIcon";
 import logo from "../../assets/LogoRoci.png";
 import "./Nav.css";
 
 function Nav() {
-  const { url } = useParams();
   const { pathname } = useLocation();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const screenWidth = window.innerWidth;
   const items = useCartStore((state) => state.items);
-  console.log("ITEMS", items);
-
-  console.log(url);
-  console.log(pathname);
 
   return (
-    <>
-      <nav className={pathname !== "/" ? "nav-container" : "no-visible"}>
-        {screenWidth < 768 ? (
-          <>
-            <div className="nav-logo-mobile">
-              <NavLink to="/">
-                <img src={logo} alt="logo" />
-              </NavLink>
-            </div>
-            <NavLink to="/cart" className="nav-cart-mobile">
-              <CartIcon />
-              <FaCartShopping
-                className={items.length > 0 ? "items-cart" : "no-items-cart"}
-              />
-            </NavLink>
-            <div className="menu-nav-mobile">
-              {isMenuOpen ? (
-                <FaXmark
-                  className="menu-open"
-                  onClick={() => setIsMenuOpen(false)}
-                />
-              ) : (
-                <FaBars
-                  className="menu-close"
-                  onClick={() => setIsMenuOpen(true)}
-                />
-              )}
-            </div>
-          </>
-        ) : (
-          <>
-            <div></div>
-          </>
-        )}
-
-        {/* {screenWidth < 768 && (
-        <>
-          <div className="nav-logo-mobile">
-            <NavLink to="/">
-              <img src={logo} alt="logo" />
-            </NavLink>
-          </div>
-          <NavLink to="/cart" className="nav-cart-mobile">
-            <CartIcon />
-            <FaCartShopping
-              className={items.length > 0 ? "items-cart" : "no-items-cart"}
-            />
+    <nav className={pathname !== "/" ? "nav-container" : "no-visible"}>
+      <div className="items-nav">
+        <div className="nav-logo">
+          <NavLink to="/">
+            <img src={logo} alt="logo" />
           </NavLink>
-          <div className="menu-nav-mobile">
-            {isMenuOpen ? (
-              <FaXmark
-                className="menu-open"
-                onClick={() => setIsMenuOpen(false)}
-              />
-            ) : (
-              <FaBars
-                className="menu-close"
-                onClick={() => setIsMenuOpen(true)}
-              />
-            )}
-          </div>
-        :<div className="nav-menu">
-        <ul>
-          <li>
-            <a href="#home">Inicio</a>
-          </li>
-          <li>
-            <a href="#products">Productos</a>
-          </li>
-          <li>
-            <a href="#about">Nosotros</a>
-          </li>
-          <li>
-            <a href="#contact">Contacto</a>
-          </li>
-        </ul>
+        </div>
+        <NavLink
+          to={items.length > 0 ? "/cart" : "/catalog"}
+          className="nav-cart"
+        >
+          <CartIcon />
+          <FaCartShopping
+            className={items.length > 0 ? "items-cart" : "no-items-cart"}
+          />
+        </NavLink>
       </div>
-      )} */}
-      </nav>
-      <div className="menu-modal"></div>
-    </>
+    </nav>
   );
 }
 

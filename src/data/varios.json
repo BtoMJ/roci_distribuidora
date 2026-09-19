@@ -1,0 +1,72 @@
+[
+  {
+    "id": "vr-1",
+    "name": "Alicate para Pie",
+    "price": 50
+  },
+  {
+    "id": "vr-2",
+    "name": "Alicate Premium",
+    "price": 50
+  },
+  {
+    "id": "vr-3",
+    "name": "Cepillo Sacudidor",
+    "price": 10
+  },
+  {
+    "id": "vr-4",
+    "name": "Corta Tips Camaleón",
+    "price": 80
+  },
+  {
+    "id": "vr-5",
+    "name": "Corta Tips Dorado",
+    "price": 80
+  },
+  {
+    "id": "vr-6",
+    "name": "Levanta Cutícula",
+    "price": 50
+  },
+  {
+    "id": "vr-7",
+    "name": "Palitos Naranjo",
+    "price": 10
+  },
+  {
+    "id": "vr-8",
+    "name": "Guante Rosa Talla M 100 pzas",
+    "price": 150
+  },
+  {
+    "id": "vr-8",
+    "name": "Table Towel",
+    "price": 30
+  },
+  {
+    "id": "pnc-10",
+    "name": "Pincel 3D",
+    "price": 150
+  },
+  {
+    "id": "pnc-11",
+    "name": "Pincel #8",
+    "price": 249
+  },
+  {
+    "id": "pnc-12",
+    "name": "Pincel #10",
+    "price": 299
+  },
+  {
+    "id": "ele-13",
+    "name": "Lámpara Pink Diamond",
+    "price": 499
+  },
+  {
+    "id": "ele-14",
+    "name": "Lámpara Sparkle",
+    "price": 299
+  }
+]

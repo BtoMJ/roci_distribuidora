@@ -1,0 +1,27 @@
+[
+  {
+    "id": "lm-1",
+    "name": "Lima 80-80",
+    "price": 10
+  },
+  {
+    "id": "lm-2",
+    "name": "Lima 100-100",
+    "price": 10
+  },
+  {
+    "id": "lm-3",
+    "name": "Lima 120-120",
+    "price": 10
+  },
+  {
+    "id": "lm-4",
+    "name": "Lima Buffer",
+    "price": 15
+  },
+  {
+    "id": "lm-5",
+    "name": "Lima para Pies",
+    "price": 10
+  }
+]
